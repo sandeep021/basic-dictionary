@@ -16,7 +16,7 @@ while True:
         else:
             return "Query Word doesn't exist"
 
-    word = input("Enter your query word: ").lower()
+    word = input("Hello! Enter your query word: ").lower()
     l=translate(word)
     if type(l)==list:
        for item in l:
